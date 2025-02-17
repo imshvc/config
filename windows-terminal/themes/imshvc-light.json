@@ -1,0 +1,23 @@
+{
+  "background": "#FFFFFF",
+  "black": "#000000",
+  "blue": "#101080",
+  "brightBlack": "#404040",
+  "brightBlue": "#3030B0",
+  "brightCyan": "#308080",
+  "brightGreen": "#008000",
+  "brightPurple": "#803280",
+  "brightRed": "#B03030",
+  "brightWhite": "#808080",
+  "brightYellow": "#808000",
+  "cursorColor": "#000000",
+  "cyan": "#206060",
+  "foreground": "#000000",
+  "green": "#006000",
+  "name": "imshvc-light",
+  "purple": "#631A63",
+  "red": "#801010",
+  "selectionBackground": "#DDDDDD",
+  "white": "#444444",
+  "yellow": "#606010"
+}
