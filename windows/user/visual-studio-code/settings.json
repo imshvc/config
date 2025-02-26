@@ -37,5 +37,6 @@
   "editor.renderWhitespace": "none",
   "editor.minimap.enabled": false,
   "workbench.colorTheme": "Default Light+",
-  "editor.fontSize": 12
+  "editor.fontSize": 12,
+  "update.mode": "manual"
 }
