@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <InternalCommands>
+        <!-- Insert "Date (customized)" using shortcut: Ctrl + Shift + D -->
+        <Shortcut id="41008" Ctrl="yes" Alt="no" Shift="yes" Key="83" />
+        <Shortcut id="42085" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42086" Ctrl="yes" Alt="no" Shift="yes" Key="68" />
+    </InternalCommands>
+    <Macros />
+    <UserDefinedCommands />
+    <PluginCommands />
+    <ScintillaKeys />
+</NotepadPlus>

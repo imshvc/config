@@ -1,0 +1,41 @@
+{
+  // See: https://github.com/imshvc/config/tree/main/windows/user/visual-studio-code/
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.smoothScrolling": true,
+  "explorer.autoReveal": "focusNoScroll",
+  "extensions.ignoreRecommendations": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "terminal.integrated.profiles.windows": {
+    "MSYS2": {
+      "path": "D:/Apps/MSYS2/usr/bin/bash.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "MSYS2",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.gpuAcceleration": "on",
+  "zenMode.hideLineNumbers": false,
+  "files.eol": "\n",
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.folding": false,
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "Comic Code",
+  "terminal.integrated.fontSize": 16,
+  "explorer.compactFolders": false, // don't render folders in compact form.
+  "workbench.tree.indent": 16,
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": true,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Default Light+",
+  "editor.fontSize": 12
+}

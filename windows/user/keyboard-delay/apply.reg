@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+; Authors:
+;   Nurudin Imsirovic <realnurudinimsirovic@gmail.com>
+;
+; Description:
+;   Make keyboard more responsive
+;   and faster to respond to inputs.
+;
+; Step 1: Remove default configuration.
+;
+; Step 2: Configure Keyboard.
+;   Repeat Delay: Short
+;   Repeat Rate:  Fast
+;
+; Step 3: Enable and Configure Filter Keys.
+;   Ignore under: 0ms
+;   Repeat delay: 150ms
+;   Repeat rate:  40ms
+
+; Make sure entries exist
+[HKEY_CURRENT_USER\Control Panel]
+[HKEY_CURRENT_USER\Control Panel\Accessibility]
+
+; Remove default configuration
+[-HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Preference]
+[-HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+[-HKEY_CURRENT_USER\Control Panel\Keyboard]
+
+; Configure
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Preference]
+"On"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"AutoRepeatDelay"="150"
+"AutoRepeatRate"="40"
+"BounceTime"="0"
+"DelayBeforeAcceptance"="0"
+"Flags"="3"
+"Last BounceKey Setting"=dword:00000000
+"Last Valid Delay"=dword:00000000
+"Last Valid Repeat"=dword:00000000
+"Last Valid Wait"=dword:000003e8
+
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+"KeyboardDelay"="0"
+"KeyboardSpeed"="31"
