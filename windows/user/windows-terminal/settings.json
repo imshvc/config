@@ -1,41 +1,25 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{7869a330-6c19-4030-9363-0c2bbae60e43}",
+    "keybindings": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "id": "User.copy.644BA8F2",
+            "id": "Terminal.CopyToClipboard",
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "id": "User.paste",
+            "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "id": "User.splitPane.A6751878",
+            "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
         }
     ],
-    "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "{06614e55-e8bf-4c8b-818e-cf9f857d75f4}",
     "newTabMenu": 
     [
         {
@@ -47,34 +31,49 @@
         "defaults": 
         {
             "closeOnExit": "always",
-            "colorScheme": "Dark+ (imshvc)",
-            "cursorShape": "filledBox",
+            "colorScheme": "imshvc-dark",
             "font": 
             {
-                "face": "Comic Code",
-                "size": 10,
-                "weight": "normal"
+                "size": 13
             }
         },
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
+                "colorScheme": "imshvc-dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "size": 13
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
+                "colorScheme": "imshvc-dark",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": 
+                {
+                    "size": 13
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "always",
+                "colorScheme": "imshvc-dark",
                 "commandline": "D:\\Apps\\MSYS2\\usr\\bin\\bash.exe",
-                "guid": "{06614e55-e8bf-4c8b-818e-cf9f857d75f4}",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 13
+                },
+                "guid": "{7869a330-6c19-4030-9363-0c2bbae60e43}",
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "D:\\Media\\Photo\\Icons\\Tux Mascot (16x16).png",
@@ -86,7 +85,6 @@
             }
         ]
     },
-    "rendering.graphicsAPI": "direct3d11",
     "schemes": 
     [
         {
@@ -105,13 +103,37 @@
             "cyan": "#11A8CD",
             "foreground": "#CCCCCC",
             "green": "#0DBC79",
-            "name": "Dark+ (imshvc)",
+            "name": "imshvc-dark",
             "purple": "#BC3FBC",
             "red": "#CD3131",
             "selectionBackground": "#FFFFFF",
             "white": "#E5E5E5",
             "yellow": "#E5E510"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#000000",
+            "blue": "#003264",
+            "brightBlack": "#646464",
+            "brightBlue": "#0064C8",
+            "brightCyan": "#009696",
+            "brightGreen": "#009600",
+            "brightPurple": "#960096",
+            "brightRed": "#960000",
+            "brightWhite": "#646464",
+            "brightYellow": "#B0B000",
+            "cursorColor": "#000000",
+            "cyan": "#006464",
+            "foreground": "#000000",
+            "green": "#006400",
+            "name": "imshvc-light",
+            "purple": "#640064",
+            "red": "#640000",
+            "selectionBackground": "#000000",
+            "white": "#282828",
+            "yellow": "#646400"
         }
     ],
+    "theme": "dark",
     "themes": []
 }
